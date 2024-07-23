@@ -31,7 +31,7 @@ $params = array(
     'item_details' => array(
         array(
             'id' => 1,
-            'price' => 50000,
+            'price' => $_POST['price'],
             'quantity' => 1,
             'name' => $_POST['product']
         )

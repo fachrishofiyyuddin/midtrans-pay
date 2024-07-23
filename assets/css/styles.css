@@ -1,0 +1,52 @@
+.label-ul {
+    font-weight: bold;
+}
+
+.label-heading-deskripsi {
+    font-weight: bold;
+}
+
+.war-pink {
+    width: 50px;
+    height: 50px;
+    /* Tinggi sama dengan lebar untuk membuatnya menjadi lingkaran */
+    background-color: pink;
+    border-radius: 50%;
+    /* Menggunakan 50% untuk membuat sudut menjadi lingkaran */
+}
+
+.war-yellow {
+    width: 50px;
+    height: 50px;
+    /* Tinggi sama dengan lebar untuk membuatnya menjadi lingkaran */
+    background-color: yellow;
+    border-radius: 50%;
+    /* Menggunakan 50% untuk membuat sudut menjadi lingkaran */
+}
+
+.war-green {
+    width: 50px;
+    height: 50px;
+    /* Tinggi sama dengan lebar untuk membuatnya menjadi lingkaran */
+    background-color: green;
+    border-radius: 50%;
+    /* Menggunakan 50% untuk membuat sudut menjadi lingkaran */
+}
+
+.war-blue {
+    width: 50px;
+    height: 50px;
+    /* Tinggi sama dengan lebar untuk membuatnya menjadi lingkaran */
+    background-color: blue;
+    border-radius: 50%;
+    /* Menggunakan 50% untuk membuat sudut menjadi lingkaran */
+}
+
+.war-black {
+    width: 50px;
+    height: 50px;
+    /* Tinggi sama dengan lebar untuk membuatnya menjadi lingkaran */
+    background-color: black;
+    border-radius: 50%;
+    /* Menggunakan 50% untuk membuat sudut menjadi lingkaran */
+}
