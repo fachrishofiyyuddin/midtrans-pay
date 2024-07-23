@@ -42,7 +42,7 @@ $(document).ready(function() {
 
         // console.log(name);
         // console.log(price);
-        
+
         // Validasi input sebelum melakukan aksi
         if (name === '' || emailInput === '' || product === '' || price === '' || color === '' || capacity === '') {
             // Jika ada input yang kosong, berhentikan aksi lebih lanjut
@@ -83,7 +83,7 @@ $(document).ready(function() {
                 capacity: capacity
             },
             success: function(token) {
-                console.log(token);
+                // console.log(token);
                 window.snap.pay(token, {
                     onSuccess: function(result) {
                         // Panggilan AJAX untuk memicu PHP mailer setelah pembayaran berhasil
@@ -109,7 +109,7 @@ $(document).ready(function() {
                                         title: 'Pembayaran Berhasil!',
                                         text: 'Pembayaran Anda telah berhasil diproses.'
                                     }).then((result) => {
-                                        console.log(result); // Logging hasil dari sweetalert (opsional)
+                                        // console.log(result); // Logging hasil dari sweetalert (opsional)
                                         // Jika pengguna menekan OK, refresh halaman atau lakukan tindakan lainnya
                                         location.reload();
                                     });
@@ -119,7 +119,7 @@ $(document).ready(function() {
                                         title: 'Error',
                                         text: 'Terjadi kesalahan saat memproses pembayaran. Mohon coba lagi.'
                                     }).then((result) => {
-                                        console.log(result); // Logging hasil dari sweetalert (opsional)
+                                        // console.log(result); // Logging hasil dari sweetalert (opsional)
                                         // Jika pengguna menekan OK, refresh halaman atau lakukan tindakan lainnya
                                         location.reload();
                                     });
